@@ -3,7 +3,7 @@
 # If Singleton is instanciated but instance is already there, we just change the attribute of current instance.
 class Singleton:
 
-        # Singleton instance object
+    # Singleton instance object
     instance = None
 
     # If no current singleton instance, call inner class constructor
