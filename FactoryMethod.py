@@ -47,10 +47,9 @@ class Creator:
 
 
 # CLIENT
-creator = Creator()
-productA = creator.create_object('a')
-productB = creator.create_object('b')
-productBB = creator.create_object('b')
+productA = Creator().create_object('a')
+productB = Creator().create_object('b')
+productBB = Creator().create_object('b')
 print(productA.name)
 print(productB.name)
 print(productBB.name)
