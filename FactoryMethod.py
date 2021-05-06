@@ -8,13 +8,12 @@ class AbstractProduct(ABC):
     @staticmethod
     @abstractmethod
     def create_object():
-            # create obj
+        # create obj method
         pass
 
-        # Example product A
-        # a concrete class that implements the Abstract Product interface
 
-
+# Example product A
+# a concrete class that implements the Abstract Product interface
 class ConcreteProductA(AbstractProduct):
     # a concrete class that implements the Abstract Product interface
 
