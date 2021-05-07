@@ -25,6 +25,8 @@ class Singleton:
             return self.name
 
 # Main class for testing purposes.
+
+
 def main():
     obj1 = Singleton("Llamas")
     print("Name is {}".format(obj1.getName()))
